@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Swiper</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider-list">
+            <div class="slider-track">
+                <div class="slider-track__slide">
+                    <picture>
+                        <source media="(min-width: 1020px)" srcset="img/1.webp">
+                        <img src="img/smart_1.webp" alt="" width="280px">
+                    </picture>
+                </div>
+                <div class="slider-track__slide">
+                    <picture>
+                        <source media="(min-width: 1020px)" srcset="img/2.webp">
+                        <img src="img/smart_2.webp" alt="" width="280px">
+                    </picture>
+                </div>
+                <div class="slider-track__slide">
+                    <picture>
+                        <source media="(min-width: 1020px)" srcset="img/3.webp">
+                        <img src="img/smart_3.webp" alt="" width="280px">
+                    </picture>
+                </div>
+                <div class="slider-track__slide">
+                    <picture>
+                        <source media="(min-width: 1020px)" srcset="img/4.webp">
+                        <img src="img/smart_4.webp" alt="" width="280px">
+                    </picture>
+                </div>
+                <div class="slider-track__slide">
+                    <picture>
+                        <source media="(min-width: 1020px)" srcset="img/5.webp">
+                        <img src="img/smart_5.webp" alt="" width="280px">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="slider-arrows">
+            <button type="button" class="arrow arrow--prev">
+                <svg width="20" height="40" viewBox="0 0 20 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.67767 2L17.6939 18.5722C18.0327 18.9461 18.0399 19.5138 17.7107 19.8961L2.67767 37.3553" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <button type="button" class="arrow arrow--next">
+                <svg width="20" height="40" viewBox="0 0 20 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.67767 2L17.6939 18.5722C18.0327 18.9461 18.0399 19.5138 17.7107 19.8961L2.67767 37.3553" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="slider-pagination">
+        </div>
+    </div>
+    <script src="swiper-script-2.js"></script>
+</body>
+</html>
